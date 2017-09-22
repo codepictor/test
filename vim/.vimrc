@@ -8,6 +8,7 @@ Plug 'morhetz/gruvbox'
 Plug 'hdima/python-syntax', { 'for': 'python' }
 "Plug 'altercation/vim-colors-solarized'
 "Plug 'easymotion/vim-easymotion'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -23,8 +24,9 @@ highlight Normal ctermbg=0
 "let g:gruvbox_contrast_dark="hard"
 
 set number
-set expandtab
+set shiftwidth=4
 set tabstop=4
+set expandtab
 
 "if has("gui_running")
 "    set lines=999 columns=999
